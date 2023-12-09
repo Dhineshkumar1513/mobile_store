@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 640px) { 
+    .head{
+        background-color: rgb(255, 89, 29);
+        text-align: center;
+        color:white;
+        padding: 5px;
+    }
+    .mobile__cards{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .img{
+        height: 125px;
+        width: 100px;
+    }
+    .cards{
+         margin: 20px;
+         box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);   
+        padding-bottom: 10px;
+        cursor: pointer;
+        }
+    .name{
+        font-size: 12px;
+        padding-left:  2px ;
+    }
+    .details{
+        font-size: 8px;
+        padding-left:  2px ;
+    }
+    .price{
+        font-size: 10px;
+        padding-left:  2px ;
+    }
+    
+    .del{
+        color: grey;
+        font-size: 8px;
+    }
+    .star{
+        font-size: 6px;
+        padding-left: 2px;
+        
+    }
+}
+
+@media (min-width: 640px){
+    .head{
+        background-color: rgb(255, 89, 29);
+        text-align: center;
+        color:white;
+        padding: 5px;
+    }
+    .mobile__cards{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .img{
+        height: 250px;
+        width: 200px;
+    }
+    .cards{
+         margin: 20px;
+        padding-bottom: 15px;
+        cursor: pointer;
+     }
+    .name{
+        font-size: 18px;
+        padding-left: 4px;
+    }
+    .details{
+        font-size: 12px;
+        padding: 3px 0 3px 4px;
+    }
+    .price{
+     padding-left: 4px;
+        font-size: 14px;
+    }
+    
+    .del{
+        color: grey;
+        font-size: 12px;
+    }
+    .star{
+        font-size: 8px;
+        padding-left: 4px;
+        
+    }
+    .cards:hover{
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);   
+
+    }
+
+
+}
+@media (min-width: 1000px){
+    .head{
+        background-color: rgb(255, 89, 29) ;
+        text-align: center;
+        color:white;
+        padding: 5px;
+    }
+
+    .mobile__cards{
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        
+    }
+    .img{
+        height: 220px;
+        width: 165px;
+     
+    }
+    .cards{
+         margin: 20px;
+         
+        padding-bottom: 30px;
+        cursor: pointer;
+        }
+    .name{
+        font-size: 23px;
+        padding-left: 6px;
+    }
+    .details{
+        font-size: 15px;
+        padding: 6px 0 6px 4px;
+    }
+    .price{
+     padding-left: 6px;
+        font-size: 22px;
+        
+    }
+    
+    .del{
+        color: grey;
+        font-size: 20px;
+    }
+    .star{
+        font-size: 14px;
+        padding-left: 6px;
+        
+    }
+    .cards:hover{
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);   
+
+    }
+
+}
